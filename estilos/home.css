@@ -1,0 +1,47 @@
+body {
+	
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+background-color: royalblue;
+width: 100%;
+
+}
+ header {
+    background-color: black;
+	width: 100%;
+	
+}
+nav{
+	display: table;
+	width: 100%;
+	margin: 5;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+nav ul {
+	display: table-row;
+	margin: 5;
+
+}
+nav ul li {
+	display: table-cell;
+	width: 5% ;
+	text-align: center;
+	background-color: skyblue;
+	border: thin solid rgb(179, 185, 186);
+	
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover {
+	color: whitesmoke;
+}
+
+
+   /* font-family: 'Montserrat', sans-serif;*/
+ 
+
