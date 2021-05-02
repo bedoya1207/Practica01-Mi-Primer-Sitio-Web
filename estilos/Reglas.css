@@ -8,7 +8,8 @@ footer{
     position:static;
 }
 a{
-	text-decoration: none;
+	
+    text-decoration: none;
 	color: rgb(232, 218, 28);
 }
 
@@ -60,3 +61,44 @@ p {
    #principal ul a:hover {
 	color: white;
    }
+   .navcont nav{
+	display: table;
+	width: 100%;
+	margin: 5;
+}
+.navcont nav ul {
+ display: table-cell;
+	margin: 5;
+
+}
+.navcont nav ul li {
+	display: table-cell;
+	width: 5% ;
+	text-align: center;
+	background-color: skyblue;
+	border: thin solid rgb(179, 185, 186);
+	
+}
+.navcont nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.navcont nav ul li a:hover {
+	color: whitesmoke;
+}
+.primercont h1{
+	text-align: center;
+}
+aside{
+    text-align: center;
+    }
+     aside nav{
+         text-align: center;
+        width: 5%;
+    }
+     aside nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navcont{
+        font-family: 'Montserrat', sans-serif;

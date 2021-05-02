@@ -18,37 +18,8 @@ body {
 	width: 100%;
 	
 }
-.navcont{
-	font-family: 'Montserrat', sans-serif;
-}
-.navcont nav{
-	display: table;
-	width: 100%;
-	margin: 5;
-	
-	
-}
-.navcont nav ul {
- display: table-cell;
-	margin: 5;
 
 }
-.navcont nav ul li {
-	display: table-cell;
-	width: 5% ;
-	text-align: center;
-	background-color: skyblue;
-	border: thin solid rgb(179, 185, 186);
-	
-}
-.navcont nav ul li a {
-	text-decoration: none;
-	color: black;
-}
-.navcont nav ul li a:hover {
-	color: whitesmoke;
-}
-
  footer{
 	
     width: 100%;
@@ -65,21 +36,6 @@ body {
 	margin: 5px;
 	float: left;
 	width: 100%;
-}
-
-.primercont h1{
-	text-align: center;
-}
- aside{
-text-align: center;
-}
- aside nav{
-	 text-align: center;
-	width: 5%;
-}
- aside nav ul li a {
-	text-decoration: none;
-	color: black;
 }
 
 .otro{
@@ -106,38 +62,11 @@ text-align: center;
  .segundocont p{
 	 text-align: center;
  }
- #contenedor {
-	text-align: left;
-	width: 100%;
-	
-   }
-   #principal {
-	margin: 1% 1% 1% 1%;
-	width: 30%;
-	float:left;
-   }
-
-   #lateral {
-	width: 60%;  /* Este será el ancho que tendrá tu columna */
-	margin: 1% 1% 1% 1%;
-	border-style: solid; 
-	border-radius: 20px;
-	background-color:rgb(109, 162, 242);  /* Aquí pon el color del fondo que quieras para este lateral */
-	float:left; /* Aquí determinas de lado quieres quede esta "columna" */
-   }
-   #principal2 {
-	margin: 1% 1% 1% 1%;
-	width: 30%;
-	float:left;
-   }
  
-  
-   /* Para limpiar los floats */
-   .clearfix:after {
-	 content: "";
-	 display: table;
-	 clear: both;
-   }
    /* font-family: 'Montserrat', sans-serif;*/
+   .contiprincipal{
+	float: left;
+	width: 100%;
+   }
  
 
