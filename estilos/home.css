@@ -1,7 +1,6 @@
 body {
 	
     margin-top: 0px;
-    margin-left: 0px;
     margin-right: 0px;
 
 background-color: royalblue;
@@ -41,6 +40,30 @@ nav ul li a:hover {
 	color: whitesmoke;
 }
 
+ footer{
+	bottom: 0;
+    width: 100%;
+	border-radius: initial;
+    border-style:solid;
+	border-radius: 20px;
+	border: gray 3px solid;
+	
+}
+#primercont{
+	float: left;
+	width: 50%;
+}
+#segundocont{
+	float: left;
+	width: 50%;
+}
+.libresi{
+	width: 50% ;
+	
+}
+p.centrado{
+	text-align: center;
+}
 
    /* font-family: 'Montserrat', sans-serif;*/
  
