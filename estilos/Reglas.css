@@ -1,5 +1,4 @@
 
-
 footer{
     
     background-color: rgb(32, 51, 150);
@@ -12,6 +11,7 @@ a{
 	text-decoration: none;
 	color: rgb(232, 218, 28);
 }
+
 a:hover{
     color: black;
 }
@@ -20,8 +20,43 @@ h1{
     
     font-family: 'Montserrat', sans-serif;
 }
-
+.otro p{
+    text-align: center;
+}
+.otro a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.otro a:hover{
+    color: black ;
+}
 p {
     text-align: justify;
     font-family: 'Noto Sans JP', sans-serif;
  }
+ #principal img{
+	display:block;
+	margin:auto;
+	   width: 80%;
+	   height: 30%;
+   }
+   #principal2 img{
+	display:block;
+	margin:auto;
+	   width: 80%;
+	   height: 30%;
+   }
+   #principal2  a {
+    text-align: center;
+    color: black;
+}
+#principal2 ul a:hover {
+ color: white;
+}
+   #principal  a {
+	   text-align: center;
+	   color: black;
+   }
+   #principal ul a:hover {
+	color: white;
+   }
