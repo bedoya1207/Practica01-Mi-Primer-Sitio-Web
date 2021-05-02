@@ -1,3 +1,9 @@
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
 body {
 	
     margin-top: 0px;
@@ -41,30 +47,37 @@ nav ul li a:hover {
 }
 
  footer{
-	bottom: 0;
+	
     width: 100%;
 	border-radius: initial;
     border-style:solid;
 	border-radius: 20px;
 	border: gray 3px solid;
-	
+	clear: both;
 }
-#primercont{
+.primercont{
 	float: left;
-	width: 50%;
-}
-#segundocont{
-	float: left;
-	width: 50%;
-}
-.libresi{
-	width: 50% ;
-	
-}
-p.centrado{
-	text-align: center;
+	width: 100%;
 }
 
+.libresi{
+	width: 40%;
+	margin:  1% 0% 1% 1%;
+	
+}
+ .primercont img {
+	float: right;
+  }
+.segundocont {
+	float: left;
+	width: 100%;
+}
+.segundocont h2 {
+	text-align: center;
+ }
+ .segundocont p{
+	 text-align: center;
+ }
    /* font-family: 'Montserrat', sans-serif;*/
  
 
