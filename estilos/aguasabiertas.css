@@ -1,3 +1,13 @@
+@charset "utf-8";
+@font-face {
+    font-family: font;
+    src: url("../Letra/RobotoCondensed-Italic.ttf");
+}
+*{
+    font-family:font;
+}
+
+
 html {
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
