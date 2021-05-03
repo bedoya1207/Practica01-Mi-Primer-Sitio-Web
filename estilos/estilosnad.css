@@ -29,20 +29,11 @@ body {
 	border: gray 3px solid;
 	clear: both;
 }
-
-
-
 .primercont{
 	margin: 5px;
 	float: left;
 	width: 100%;
 }
-
-.otro{
-	text-align: center;
-	vertical-align: middle;
-}
-
 .libresi{
 	margin: 1% 1% 1% 1%;
 	width: 35%;
@@ -52,21 +43,26 @@ body {
 	float: right;
 	
   }
-.segundocont {
-	float: left;
-	width: 100%;
+  .tabla{
+      margin: 2% 2% 2% 2%;
+      border: 1px solid;
+      
+      width: 450px;
+  }
+  .tabla td{
+      text-align: center;
+      border:1px solid;
+  }
+  .tabla2{
+    margin: 2% 2% 2% 2%;
+    border: 1px solid;
+   
+    width: 450px;
 }
-.segundocont h2 {
-	text-align: center;
- }
- .segundocont p{
-	 text-align: center;
- }
- 
-   /* font-family: 'Montserrat', sans-serif;*/
-   .contiprincipal{
-	float: left;
-	width: 100%;
-   }
- 
+.tabla2 td{
+    text-align: center;
+    border:1px solid;
+}
+
+
 
